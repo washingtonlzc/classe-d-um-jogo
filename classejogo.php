@@ -15,19 +15,19 @@ class Heroi
     {
         switch ($this->tipo) {
             case 'mago':
-                $ataque = 'usando magia';
+                $ataque = 'magia';
                 break;
             case 'guerreiro':
-                $ataque = 'usando espada';
+                $ataque = 'espada';
                 break;
             case 'monge':
-                $ataque = 'usando artes marciais';
+                $ataque = 'artes marciais';
                 break;
             case 'ninja':
-                $ataque = 'usando shuriken';
+                $ataque = 'shuriken';
                 break;
             default:
-                $ataque = 'usando um ataque indefinido';
+                $ataque = 'um ataque indefinido';
                 break;
         }
 
