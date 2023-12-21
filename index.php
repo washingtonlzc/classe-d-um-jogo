@@ -14,7 +14,7 @@
     $(document).ready(function () {
         $.ajax({
             type: "POST",
-            url: "jogo.php",
+            url: "classejogo.php",
             dataType: "json",
             success: function (response) {
                 $("#output").html(response.message);
